@@ -1,28 +1,237 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Home</title>
-    <meta name="copyright" content="Copyright 1999-2020. Plesk International GmbH. All rights reserved.">
-    <link rel="stylesheet" href="/css/index.css">
+    <title>Helena Jaegle | Portfolio</title>
+    <meta name="copyright">
+    <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="/js/index.js">
+    <link rel="icon" type="image/x-icon" href="/Public/img/logo_perso_bold.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Titan+One&display=swap" rel="stylesheet"></head>
-<body> 
-    <div class="accueil">
-    <header>
-        <div class="header_text"> 
-            <a href="/html/about.html" class="underline">about</a>
-            <a href="/index.html" class="underline">home</a>
-        </div>
- 
-        <h1 class="title">Helena's Web Site</h1>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta&family=Comfortaa:wght@300;400;500;600;700&family=Fredoka+One&family=Imprima&family=Inter:wght@900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Animation link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- Jquery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Font awosome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
-            <div class="buttons">
-                <a href="/html/portfolio.html" class="button_header">Portfolio</a>
-            </div>
+<body>
 
-        </header>
+    <div id="loading">
+        <div id="spinner1"></div>
+        <div id="spinner2"></div>
+        <div id="spinner3"></div>
     </div>
+
+
+
+    <div id="middle" class="animated slideDown" style="animation-delay: 2s;">
+        <h1>HELENA JAEGLE</h1>
+        <h3>WEB DESIGNER</h3>
+
+        <a href="#sec-2">
+            <div class="scroll-down">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </div>
+        </a>
+
+        <video autoplay loop muted playsinline class="video_home">
+            <source src="/Public/video/pexels-rostislav-uzunov-9150545.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section id="sec-2">
+        <div class="container">
+            <div class="text">
+                <!-- <p>BRANDING</p>
+                <p>ANIMATION</p> -->
+                <p class="title1">PROJETS</p>
+                <!-- <p>SITES</p> -->
+            </div>
+            <!-- <a href="#sec-5">
+                <div class="scroll-down2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+            </a> -->
+
+            <section id="sec-5">
+                <div class="collage">
+                    <div class="image-grid">
+                        <a href="/html/ofest.html">
+                            <div class="overlay">
+                                <img src="/Public/img/Event Ticket Mockup copie.png" alt="tile3" width="400"
+                                    height="300" alt="house" />
+                                <div class="fadedbox">
+                                    <div class="title text">OFEST</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/html/animation.html">
+                            <div class="overlay">
+                                <img src="/Public/img/Gif_2.gif" alt="tile3" width="400" height="300" alt="house" />
+                                <div class="fadedbox">
+                                    <div class="title text">ANIMATION</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="image-grid">
+                        <a href="/html/ofest.html">
+                            <div class="overlay">
+                                <img src="/Public/img/Tote_Bag_Mockup_1 copie.png" alt="tile3" width="400" height="300"
+                                    alt="house" />
+                                <div class="fadedbox">
+                                    <div class="title text">OFEST</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/html/onfbois.html">
+                            <div class="overlay">
+                                <img src="/Public/img/onf-ipad.png" alt="tile3" width="400" height="300" alt="house" />
+                                <div class="fadedbox">
+                                    <div class="title text">ONF</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="image-grid">
+                        <a href="/html/velopole.html">
+                            <div class="overlay">
+                                <img src="/Public/img/mobile-velo.png" alt="tile3" width="400" height="300"
+                                    alt="house" />
+                                <div class="fadedbox">
+                                    <div class="title text">VELOPOLE</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/html/animation.html">
+                            <div class="overlay">
+                                <img src="/Public/img/Gif_1.gif" alt="tile3" width="400" height="300" alt="house" />
+                                <div class="fadedbox">
+                                    <div class="title text">ANIMATION</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="sec-3">
+        <div class="container">
+            <!-- <h2 class="title1">DIGITAL</h2>
+        <h2 class="title2">VIDEO</h2> -->
+            <p class="title1">PROJETS</p>
+            <!-- <h2 class="title4">COMMUNICATION</h2> -->
+        </div>
+    </section>
+
+    <section id="sec-6">
+        <div class="general_infos">
+            <div class="hey">
+                <h2>Hey</h2>
+                <h3>Moi c'est Héléna,</h3>
+            </div>
+            <p class="description"> Je suis étudiante en design & communication (et un peu en web dévelopement). Je suis
+                une personne souriante,
+                passionnée et enthousiaste qui le fait ressentir dans mon travail. <br><br> Ce qui me motive c'est
+                l'immensité des possibiliés dans le design, tout peut être imaginé puis crée. <br> À côté du Design,
+                j'adore
+                les voyages, la mode, le camping et les sensations fortes. Je parle français, anglais, espagnol et
+                allemand.
+                Pour mes projets je travail avec Figma, Photoshop, InDesign, After Effects et Illustrator. </p>
+        </div>
+        <!-- <img src="/Public/img/portrait.png" alt="Ma photo"> -->
+        </div>
+        </div>
+    </section>
+
+    <section id="sec-4">
+        <div class="container">
+            <h2 class="contact">CONTACT</h2>
+            <form>
+                <input id="Nom" name="Nom" placeholder="Nom">
+                <input id="Nom" name="Nom" placeholder="E-mail">
+                <input id="Nom" name="Nom" placeholder="Telephone">
+                <button>Envoyer</button>
+            </form>
+
+            <div class="reseaux">
+                <a href="https://www.google.com/intl/fr/gmail/about/">Email : helena.jaeglee@gmail.com </a>
+                <a href="tel:+33767485788">Tel : 07 67 48 57 88 </a>
+                <a href="https://www.linkedin.com">Linkedin : Helena Jaegle </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        setTimeout(function () {
+            $("#loading").addClass("animated fadeOut");
+            setTimeout(function () {
+                $("#loading").removeClass("animated fadeOut");
+                $("#loading").css("display", "none");
+                $("#box").css("display", "none");
+            }, 2000);
+        }, 1300);
+
+        var text = document.querySelector('.text');
+
+        window.addEventListener('scroll', function () {
+            var scrollPos = window.scrollY + window.innerHeight;
+            var textPos = text.offsetTop + text.offsetHeight;
+
+            if (scrollPos > textPos) {
+                text.classList.remove('big');
+                text.classList.add('small');
+            } else if (scrollPos < textPos - text.offsetHeight) {
+                text.classList.remove('small');
+                text.classList.remove('big');
+            } else {
+                text.classList.remove('small');
+                text.classList.add('big');
+            }
+        });
+    </script>
+
+    <!--
+
+    <p class="home">WEB DESIGNER</p>
+
+    <div class="container-first">
+        <h3>PORTFOLIO</h3>
+        <section class="name">
+            <section class="first_name">HELENA</section>
+            <section class="last_name">JAEGLE</section>
+        </section>
+        <div class="container-btns">
+            <button class="btn-first b1"><a href="/html/works.html">Découvrir</a></button>
+            <button class="btn-first b2"><a href="/html/apropos.html">Infos</a></button>
+        </div>
+    </div>
+
+
+    <img src="/Public/img/logo_perso_bold.png" class="logo">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="index.js"></script>
+
+-->
+
 </body>
+
 </html>
