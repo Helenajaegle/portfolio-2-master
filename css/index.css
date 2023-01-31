@@ -159,11 +159,12 @@ body {
 
 .image-onf {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .image-onf > img {
-  width: 100%;
+  width: 70%;
+  justify-self: center;
 }
 
 .image-velopole {
