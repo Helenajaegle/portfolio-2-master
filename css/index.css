@@ -121,11 +121,17 @@ body {
 
 /* Fin images grid */
 
+/* Fleche retour */
+
 .back {
   margin-left: 3%;
   stroke: white;
   opacity: 0.5;
 }
+
+/* Fin */
+
+/* Images projets */
 
 .image-grand {
   width: 100%;
@@ -134,6 +140,21 @@ body {
 .presentation {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.monogramme {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 5%;
+}
+
+.monogramme > img {
+  width: 30%;
+  justify-self: center;
+}
+
+.image-mono {
+  width: 100vw;
 }
 
 .image-onf {
@@ -153,6 +174,8 @@ body {
 .image-velopole > img {
   width: 100%;
 }
+
+/* Fin images projets */
 
 /* Autres projets */
 
