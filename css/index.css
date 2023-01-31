@@ -174,12 +174,8 @@ body {
 }
 
 .image-velopole {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.image-velopole > img {
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 /* Fin images projets */
