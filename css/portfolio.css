@@ -14,7 +14,7 @@ body {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  font-family: "Archivo Black";
+  font-family: "Work Sans";
 }
 
 #loading {
@@ -73,10 +73,11 @@ body {
 }
 
 #middle h1 {
-  font-size: 3vw;
+  font-size: 9vw;
   color: white;
   text-align: center;
-  font-family: "Archivo Black";
+  font-family: "Rantera";
+  font-weight: 100;
   animation: fadeIn 5s ease-in;
 }
 
@@ -90,26 +91,22 @@ body {
 }
 
 #middle h3 {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: white;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Work Sans";
   font-weight: 400;
-  opacity: 0.6;
+  opacity: 0.7;
   margin-top: 3%;
+  animation: fadeIn 5s ease-in;
 }
 
-@media (max-width: 850px) {
-  #about,
-  #works,
-  #contact {
-    display: none;
+@keyframes fadeIn {
+  from {
+    transform: scale(0, 0);
   }
-  #middle {
-    width: 99vw;
-  }
-  #menu {
-    display: inline-block;
+  to {
+    transform: scale(1, 1);
   }
 }
 
@@ -646,7 +643,7 @@ button {
 .title {
   font-size: 5vw;
   text-transform: uppercase;
-  font-family: "Roboto";
+  font-family: "Work Sans";
   margin-top: 20%;
   opacity: 1;
   transition-delay: 0.2s;
@@ -704,13 +701,13 @@ section .text-container .text-box {
 
 .content {
   --color-text: #4f7b92;
-  opacity: 0.3;
+  opacity: 0.5;
+  font-family: "Work Sans";
   --color-bg: aliceblue;
   --font-size-s: 13vw;
   --font-size-m: 16vw;
   --font-size-l: 24vw;
   --font-size-xl: 26vw;
-  --font-family: widescreen-ex, sans-serif;
   --font-case: uppercase;
   --color-rep-text: var(--color-text);
   --color-rep-text-main: var(--color-text);

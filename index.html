@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Helena Jaegle | Portfolio</title>
+    <title>Helena Jaegle</title>
     <meta name="copyright">
     <link rel="stylesheet" href="/css/portfolio.css">
     <link rel="stylesheet" href="/js/index.js">
@@ -28,10 +28,11 @@
 
     <div id="loading">
         <div id="spinner2"><img src="/Public/img/logo_bleu.png" alt=""></div>
+
     </div>
 
     <div id="middle" class="animated slideDown" style="animation-delay: 2s;">
-        <h1>HELENA JAEGLE</h1>
+        <h1>Helena.</h1>
         <h3>WEB DESIGNER</h3>
 
         <a href="#sec-2">
@@ -153,7 +154,7 @@
                     <div class="container reveal">
                         <div class="text-container">
                             <div class="text-box">
-                                <h2>Hey</h2>
+                                <h2>HEY</h2>
                                 <h3>Moi c'est Héléna,</h3>
                             </div>
                             <p class="description"> Je suis étudiante en design & communication (et un peu en web dévelopement). Je suis
@@ -232,6 +233,37 @@
         }
 
         window.addEventListener("scroll", reveal);
+        function typeEffect(element, speed) {
+  var text = element.innerHTML;
+  element.innerHTML = "";
+  
+  var i = 0;
+  var timer = setInterval(function() {
+    if (i < text.length) {
+      element.append(text.charAt(i));
+      i++;
+    } else {
+      clearInterval(timer);
+    }
+  }, speed);
+}
+
+
+// application
+var speed = 75;
+var h1 = document.querySelector('h1');
+var p = document.querySelector('p');
+var delay = h1.innerHTML.length * speed + speed;
+
+// type affect to header
+typeEffect(h1, speed);
+
+
+// type affect to body
+setTimeout(function(){
+  p.style.display = "inline-block";
+  typeEffect(p, speed);
+}, delay);
     </script>
     <script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
     <script type="module" src="index.6d147055.js"></script>
