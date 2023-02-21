@@ -261,7 +261,7 @@ overflow: hidden; */
 .description {
   text-align: left;
   font-family: "Roboto";
-  font-size: 10px;
+  font-size: 10%;
   color: white;
   margin-right: 5%;
   margin-top: 12%;
@@ -624,7 +624,7 @@ button {
   -o-transition: all 300ms ease-out;
   -ms-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
-  opacity: 0.7;
+  opacity: 0.85;
   width: 720px;
   height: 600px;
   padding: 130px 20px;
@@ -642,10 +642,11 @@ button {
   -webkit-transform: translateY(30px);
 }
 .title {
-  font-size: 5vw;
+  font-size: 6vw;
   text-transform: uppercase;
-  font-family: "Work Sans";
-  margin-top: 20%;
+  font-family: "Roboto";
+  font-weight: bolder;
+  margin-top: 15%;
   opacity: 1;
   transition-delay: 0.2s;
   transition-duration: 0.3s;
@@ -702,27 +703,32 @@ section .text-container .text-box {
 
 /* titre mooving */
 
-.content {
-  --color-text: #4f7b92;
-  opacity: 0.5;
-  font-family: "Work Sans";
-  --color-bg: aliceblue;
+body {
+  color: #4f7b92;
   --font-size-s: 13vw;
   --font-size-m: 16vw;
-  --font-size-l: 24vw;
-  --font-size-xl: 26vw;
+  --font-size-l: 20vw;
+  --font-size-xl: 27vw;
+  --font-family: widescreen-ex, sans-serif;
+  --font-weight: 900;
+  --content-offset: 20vh;
   --font-case: uppercase;
-  --color-rep-text: var(--color-text);
-  --color-rep-text-main: var(--color-text);
-  --color-rep-outline: var(--color-text);
   --color-rep-bg: var(--color-bg);
   --font-factor: 0.059;
   --font-line: 0.745;
-  color: var(--color-text);
   background-color: var(--color-bg);
-  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+.content {
+  margin: var(--content-offset) 0 0 0;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 
 .content__title--size-s {
@@ -747,10 +753,17 @@ section .text-container .text-box {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin-left: 0;
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
 }
-
+.content__title--left {
+  margin-right: auto;
+}
+.content__title--right {
+  margin-left: auto;
+}
 .text-rep span {
   color: var(--color-rep-text-main);
   background: var(--color-rep-bg);
@@ -758,6 +771,11 @@ section .text-container .text-box {
   padding-bottom: calc(var(--font-factor) * var(--size));
   will-change: transform;
   grid-area: 1/1/2/2;
-  margin-top: 5%;
-  margin-bottom: 5%;
+}
+.text-rep span:not(:last-child) {
+  color: var(--color-rep-text);
+}
+
+.demo-5 .text-rep span {
+  padding-bottom: 0;
 }
