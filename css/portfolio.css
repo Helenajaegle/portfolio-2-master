@@ -257,7 +257,7 @@ overflow: hidden; */
   margin-top: 5%;
 }
 
-.description {
+/* .description {
   text-align: left;
   font-family: "Roboto";
   font-size: 10%;
@@ -266,15 +266,22 @@ overflow: hidden; */
   margin-top: 12%;
   margin-left: 8%;
   margin-bottom: 10%;
+} */
+
+.bulles {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-left: 45%;
+  margin-top: -10%;
 }
 
 .bulle1 {
   border: none;
   background-color: #4f7b92;
-  height: 20vw;
-  width: 20vw;
+  height: 8vw;
+  width: 8vw;
   font-size: 15px;
-  border-radius: 100px;
+  border-radius: 300px;
   color: white;
   font-family: "Roboto";
 }
@@ -282,10 +289,10 @@ overflow: hidden; */
 .bulle2 {
   border: none;
   background-color: #ffffff;
-  height: 40vw;
-  width: 40vw;
+  height: 12vw;
+  width: 12vw;
   font-size: 15px;
-  border-radius: 100px;
+  border-radius: 300px;
   color: white;
   font-family: "Roboto";
 }
@@ -293,10 +300,10 @@ overflow: hidden; */
 .bulle3 {
   border: none;
   background-color: #7693a3;
-  height: 100px;
-  width: 100px;
+  height: 7vw;
+  width: 7vw;
   font-size: 15px;
-  border-radius: 100px;
+  border-radius: 300px;
   color: white;
   font-family: "Roboto";
 }
@@ -304,12 +311,13 @@ overflow: hidden; */
 .bulle4 {
   border: none;
   background-color: #fff;
-  height: 100px;
-  width: 100px;
+  height: 11vw;
+  width: 11vw;
   font-size: 15px;
-  border-radius: 100px;
+  border-radius: 300px;
   color: white;
   font-family: "Roboto";
+  margin-top: 0%;
 }
 
 .container-first > h3 {
