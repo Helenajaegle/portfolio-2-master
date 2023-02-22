@@ -20,7 +20,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  background: #000000;
+  background: aliceblue;
   z-index: 999;
   display: flex;
   justify-content: center;
@@ -244,9 +244,9 @@ overflow: hidden; */
   text-align: left;
   color: #4f7b92;
   font-family: "Roboto";
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 15vw;
-  margin-top: 0%;
+  margin-top: -20%;
 }
 
 .text-box > h3 {
@@ -257,16 +257,15 @@ overflow: hidden; */
   margin-top: 5%;
 }
 
-/* .description {
+.description {
   text-align: left;
   font-family: "Roboto";
-  font-size: 10%;
+  font-size: 1.5vw;
   color: #4f7b92;
-  margin-right: 5%;
-  margin-top: 12%;
-  margin-left: 8%;
-  margin-bottom: 10%;
-} */
+  margin-top: 20%;
+  margin-left: 60%;
+  margin-bottom: 20%;
+}
 
 .bulles {
   display: grid;
@@ -276,48 +275,31 @@ overflow: hidden; */
 }
 
 .bulle1 {
-  border: none;
-  background-color: #4f7b92;
-  height: 8vw;
-  width: 8vw;
-  font-size: 15px;
-  border-radius: 300px;
-  color: white;
-  font-family: "Roboto";
+  height: 5vw;
+  width: 5vw;
+  border-radius: 15px;
+  margin-left: 5%;
 }
 
 .bulle2 {
-  border: none;
-  background-color: #ffffff;
-  height: 12vw;
-  width: 12vw;
-  font-size: 15px;
-  border-radius: 300px;
-  color: white;
-  font-family: "Roboto";
+  height: 5vw;
+  width: 5vw;
+  border-radius: 15px;
+  margin-left: 5%;
 }
 
 .bulle3 {
-  border: none;
-  background-color: #7693a3;
-  height: 7vw;
-  width: 7vw;
-  font-size: 15px;
-  border-radius: 300px;
-  color: white;
-  font-family: "Roboto";
+  height: 5vw;
+  width: 5vw;
+  border-radius: 15px;
+  margin-left: 5%;
 }
 
 .bulle4 {
-  border: none;
-  background-color: #fff;
-  height: 11vw;
-  width: 11vw;
-  font-size: 15px;
-  border-radius: 300px;
-  color: white;
-  font-family: "Roboto";
-  margin-top: 0%;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 15px;
+  margin-left: 5%;
 }
 
 .container-first > h3 {
@@ -337,13 +319,13 @@ overflow: hidden; */
   }
 }
 
-p {
+/* p {
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
-}
+} */
 
 @keyframes fadeIn {
   0% {
@@ -760,7 +742,7 @@ body {
   --font-size-m: 16vw;
   --font-size-l: 20vw;
   --font-size-xl: 27vw;
-  --font-family: widescreen-ex, sans-serif;
+  --font-family: Roboto widescreen-ex, sans-serif;
   --font-weight: 900;
   --content-offset: 20vh;
   --font-case: uppercase;
