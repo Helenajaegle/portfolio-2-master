@@ -205,15 +205,6 @@ overflow: hidden; */
   opacity: 0.9;
 }
 
-.contact {
-  color: #fff;
-  text-align: center;
-  font-family: "Archivo Black";
-  font-size: 10vw;
-  margin-top: 25%;
-  margin-bottom: 20%;
-}
-
 .name > p {
   color: #000000;
   text-align: center;
@@ -254,6 +245,7 @@ overflow: hidden; */
 .bulles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10%;
 }
 
 .bulle1 {
@@ -460,6 +452,10 @@ section {
   background-color: aliceblue;
 }
 
+#sec-4 {
+  background-color: black;
+}
+
 #sec-6 {
   background-color: aliceblue;
 }
@@ -572,7 +568,7 @@ input {
   width: 300px;
   border: none;
   padding: 5px 0;
-  border-bottom: solid 1px #4f7b92;
+  border-bottom: solid 1px white;
   background-color: transparent;
 }
 
@@ -588,6 +584,8 @@ button {
   width: 150px;
   font-size: 15px;
   border-radius: 10px;
+  font-family: "Roboto";
+  margin-top: 5%;
 }
 
 .reseaux > a {
@@ -597,6 +595,14 @@ button {
   text-align: center;
   text-decoration: none;
   margin-bottom: 10%;
+}
+
+.contact {
+  color: white;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 7vw;
 }
 
 .select {
