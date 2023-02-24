@@ -23,8 +23,6 @@ function submitForm(e) {
     var phone = getElementVal('phone');
 
     saveMessages(name, emailid, phone);
-
-    // console.log(name, emailid, phone);
 }
 
 const saveMessages = (name, emailid, phone) => {
