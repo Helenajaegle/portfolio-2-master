@@ -276,38 +276,22 @@ overflow: hidden; */
   margin-left: 5%;
 }
 
-/* .container-first > h3 {
-  animation: fadeIn 8s;
-  -webkit-animation: fadeIn 8s;
-  -moz-animation: fadeIn 8s;
-  -o-animation: fadeIn 8s;
-  -ms-animation: fadeIn 8s;
-} */
+.bouton-pdf {
+  display: block;
+  width: 45vw;
+  background-color: black;
+  border-radius: 20px;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  font-size: 1.2vw;
+  font-family: "Roboto";
+  margin-bottom: 20%;
+}
 
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-
-/* p {
-  animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-} */
-
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.bouton-pdf:hover {
+  background-color: #82abc0;
+  opacity: 0.8;
 }
 
 .container-btns {
@@ -325,7 +309,8 @@ overflow: hidden; */
   100% {
     opacity: 1;
   }
-} */
+}
+*/
 
 /* .logo {
   animation: fadeIn 3s;
@@ -588,13 +573,13 @@ button {
   margin-top: 5%;
 }
 
-.reseaux > a {
-  font-size: 1vw;
-  font-family: "Work Sans";
-  color: #fff;
+.reseaux {
+  justify-items: center;
   text-align: center;
-  text-decoration: none;
-  margin-bottom: 10%;
+  color: #fff;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 2vw;
 }
 
 .contact {
@@ -725,7 +710,7 @@ section .text-container .text-box {
 /* titre mooving */
 
 body {
-  color: #4f7b92;
+  color: #82abc0;
   --font-size-s: 13vw;
   --font-size-m: 16vw;
   --font-size-l: 20vw;
@@ -743,6 +728,11 @@ body {
   margin: 0;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+.title2 {
+  margin-left: 5%;
+  margin-right: 15%;
 }
 
 .content {
