@@ -297,7 +297,7 @@ img {
 } */
 
 /* Anything udner 1024px */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 950px) {
   .collage {
     grid-template-columns: 1fr;
     /* --num-cols: 1;
