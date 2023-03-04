@@ -121,21 +121,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.monogramme {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 5%;
-}
-
-.monogramme > img {
-  width: 30%;
-  justify-self: center;
-}
-
-.image-mono {
-  width: 100vw;
-}
-
 .image-onf {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
