@@ -181,3 +181,8 @@ body {
 }
 
 /* Fin zoom image */
+
+.can-original {
+  width: 20%;
+  margin-left: 9%;
+}
