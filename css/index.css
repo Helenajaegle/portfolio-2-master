@@ -121,6 +121,13 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (max-width: 500px) {
+  .presentation {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .presentation-conserve {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

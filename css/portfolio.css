@@ -304,9 +304,12 @@ img {
 }
 
 /* Anything udner 1024px */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 950px) {
   .image-grid {
+    display: grid;
     --num-cols: 1;
+    --row-height: 600px;
+    --column-width: 200px;
   }
 }
 
