@@ -4,6 +4,13 @@
   justify-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .cercles {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;

@@ -22,6 +22,12 @@ body {
   margin-bottom: 5%;
 }
 
+@media screen and (max-width: 1024px) {
+  .content > p {
+    font-size: 70%;
+
+}
+
 .project1 > h1 {
   text-align: left;
   margin-left: 9%;
@@ -31,6 +37,12 @@ body {
   font-family: "Comfortaa";
   margin-top: 0%;
   margin-bottom: 1%;
+}
+
+@media screen and (max-width: 1024px) {
+  .project1 > h1 {
+    text-align: center;
+  }
 }
 
 .project1 > p a {
