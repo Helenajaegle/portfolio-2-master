@@ -1,35 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Bebas+Neue&family=Comfortaa:wght@300;400;500;700&family=Inter&family=Tilt+Warp&display=swap");
 
 @font-face {
-  font-family: "Rantera";
-  src: url("/Public/typo/Rantera.otf") format("woff2"),
-    url("/Public/typo/Rantera.otf") format("woff");
-}
-
-@font-face {
-  font-family: "20db";
-  src: url("/Public/typo/20db.otf") format("woff2"),
-    url("/Public/typo/20db.otf") format("woff");
-}
-
-@font-face {
-  font-family: "Michelia";
-  src: url("/Public/typo/Michelia.otf") format("woff2"),
-    url("/Public/typo/Michelia.otf") format("woff");
-}
-
-@font-face {
   font-family: "Aguila-Thin";
   src: url("/Public/typo/myfonts_order_5117658628266-2/Aguila-Thin.otf")
       format("woff2"),
     url("/Public/typo/myfonts_order_5117658628266-2/Aguila-Thin.otf")
-      format("woff");
-}
-
-@font-face {
-  font-family: "CotfordDisplay-XBold";
-  src: url("/Public/typo/myfonts_order_5117658628266-3/") format("woff2"),
-    url("/Public/typo/myfonts_order_5117658628266-3/CotfordDisplay-XBold.otf")
       format("woff");
 }
 
@@ -117,7 +92,7 @@ body {
   font-size: 3vw;
   color: white;
   text-align: center;
-  font-family: "Aguila-Thin";
+  font-family: "Inter";
   animation: fadeIn 5s ease-in;
 }
 
@@ -134,7 +109,7 @@ body {
   font-size: 5vw;
   color: white;
   text-align: center;
-  font-family: "CotfordDisplay-XBold";
+  font-family: "Aguila-Thin";
   font-weight: 100;
   opacity: 0.7;
   margin-top: 0%;
