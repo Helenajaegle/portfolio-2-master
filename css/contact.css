@@ -12,6 +12,7 @@ input {
   border-bottom: solid 1px white;
   opacity: 0.8;
   background-color: transparent;
+  color: white;
   font-size: 90%;
 }
 
@@ -25,6 +26,7 @@ textarea {
   background-color: transparent;
   opacity: 0.8;
   font-size: 90%;
+  color: white;
 }
 
 #Nom::placeholder {
