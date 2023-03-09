@@ -93,7 +93,7 @@
   }
 }
 
-.content > p {
+.content > p a {
   font-family: "Roboto";
   color: white;
   opacity: 0.4;
@@ -102,7 +102,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .content > p {
+  .content > p a {
     font-size: 2vw;
   }
 }
@@ -140,4 +140,58 @@
   .project1 > h1 {
     text-align: center;
   }
+}
+
+.image-grand {
+  width: 100%;
+}
+
+.presentation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Autres projets */
+
+.autres-projets {
+  width: 10%;
+  text-decoration: none;
+  color: white;
+  opacity: 0.4;
+  font-family: "Work Sans";
+}
+
+@media screen and (max-width: 1024px) {
+  .autres-projets {
+    width: 25%;
+    margin-top: 15%;
+  }
+}
+
+.autres-projets > svg {
+  width: 10%;
+  text-decoration: none;
+  color: white;
+  opacity: 0.4;
+  font-family: "Work Sans";
+}
+
+.autres-projets:hover {
+  color: white;
+}
+
+.caroussel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 30vw;
+  padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }

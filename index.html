@@ -7,6 +7,7 @@
     <meta name="copyright">
     <link rel="stylesheet" href="/css/portfolio.css">
     <link rel="stylesheet" href="/js/contact.js">
+    <link rel="stylesheet" href="/css/contact.css">
     <link rel="icon" type="image/x-icon" href="/Public/img/logo_perso_bold.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -170,7 +171,7 @@
         </section>
     </section>
 
-    <section id="sec-4">
+    <!-- <section id="sec-4">
         <div class="container">
             <p class="contact-p">Si tu souhaites prendre rendez-vous pour discuter d'un projet c'est par ici</p>
             <form id="contact">
@@ -180,6 +181,22 @@
                 <button>Envoyer</button>
             </form>
             <p class="contact">À bientôt !</p>
+    </section> -->
+    <section id="sec-4">
+            <form action="https://formspree.io/f/xleklden" method="POST">
+                <p class="contact-p">Pour discuter d'un projet ça se passe par ici !</p>
+                <div id="input-field">
+                    <input type="text" placeholder="Name" name="Name">
+                </div>
+                <div id="input-field">
+                    <input type="text" placeholder="Email" name="Email">
+                </div>
+                <div id="input-field">
+                    <textarea name="Message" placeholder="Message" rows="1"></textarea>
+                </div>
+                <input type="submit" value="ENVOYER" class="sent-btn">
+                <p class="contact">À bientôt !</p>
+            </form>
     </section>
 
     <script>

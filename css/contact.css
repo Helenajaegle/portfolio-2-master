@@ -1,0 +1,78 @@
+/* form {
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 10px;
+} */
+
+input {
+  margin: 35px 0px;
+  width: 500px;
+  border: none;
+  padding: 5px 0;
+  border-bottom: solid 1px white;
+  opacity: 0.8;
+  background-color: transparent;
+  font-size: 90%;
+}
+
+textarea {
+  margin: 35px 0px;
+  font-family: "Roboto";
+  width: 500px;
+  border: none;
+  padding: 5px 0;
+  border-bottom: solid 1px white;
+  background-color: transparent;
+  opacity: 0.8;
+  font-size: 90%;
+}
+
+#Nom::placeholder {
+  color: white;
+}
+
+.sent-btn {
+  border: none;
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-bottom: solid 1px white;
+  font-family: "Roboto";
+  margin-top: 15%;
+}
+
+.reseaux {
+  text-align: center;
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 2vw;
+}
+
+.contact {
+  color: white;
+  text-align: right;
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 2vw;
+  margin-top: 5%;
+}
+
+.contact-p {
+  color: white;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.2vw;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.reseaux {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 8vw;
+  margin-bottom: 10%;
+}

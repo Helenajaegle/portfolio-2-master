@@ -366,8 +366,7 @@ section {
 }
 
 #sec-4 {
-  background-color: black;
-  width: 100%;
+  background-color: #000000;
 }
 
 #sec-6 {
@@ -468,85 +467,6 @@ section {
 
 /* Fin outon sroll down */
 
-/* Page contact */
-
-form {
-  width: 350px;
-  text-align: center;
-  margin: 30px auto;
-  border-radius: 10px;
-}
-
-input {
-  margin: 20px 0px;
-  width: 300px;
-  border: none;
-  padding: 5px 0;
-  border-bottom: solid 1px white;
-  background-color: transparent;
-}
-
-#Nom::placeholder {
-  color: white;
-}
-
-button {
-  border: none;
-  background-color: #82abc0;
-  color: white;
-  height: 40px;
-  width: 150px;
-  font-size: 15px;
-  border-radius: 10px;
-  font-family: "Roboto";
-  margin-top: 5%;
-}
-
-.reseaux {
-  text-align: center;
-  color: #fff;
-  background-color: #fff;
-  border-radius: 5px;
-  width: 2vw;
-}
-
-.contact {
-  color: white;
-  text-align: center;
-  font-family: "Roboto";
-  font-weight: 800;
-  font-size: 4vw;
-  margin-top: 30%;
-}
-
-.contact-p {
-  color: white;
-  text-align: center;
-  font-family: "Roboto";
-  font-weight: 300;
-  font-size: 1.2vw;
-  margin-bottom: 10%;
-}
-
-.select {
-  opacity: 0.6;
-}
-
-.reseaux {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 8vw;
-  margin-bottom: 10%;
-}
-
-/* @media screen and (max-width: 1024px) {
-  .image-grid {
-    --num-cols: 1;
-    --num-rows: 3;
-  }
-} */
-
-/* Fin contact page */
 /* Hover images */
 
 .overlay {
