@@ -45,10 +45,10 @@ body {
 
 #spinner2 {
   animation: fadeIn 1s ease-in-out alternate;
-  width: 10vw;
-  height: 10vw;
+  width: 12vw;
+  height: 12vw;
   margin: 0;
-  margin-top: 25vw;
+  margin-top: 21%;
 }
 
 @keyframes fadeIn {
@@ -93,7 +93,7 @@ body {
   color: white;
   text-align: center;
   font-family: "Inter";
-  animation: fadeIn 5s ease-in;
+  animation: fadeIn 7s ease-in;
 }
 
 @keyframes fadeIn {
@@ -113,7 +113,7 @@ body {
   font-weight: 100;
   opacity: 0.7;
   margin-top: 0%;
-  animation: fadeIn 5s ease-in;
+  animation: fadeIn 7s ease-in;
 }
 
 @keyframes fadeIn {
@@ -569,7 +569,7 @@ body {
   color: #82abc0;
   --font-size-s: 13vw;
   --font-size-m: 16vw;
-  --font-size-l: 20vw;
+  --font-size-l: 18vw;
   --font-size-xl: 27vw;
   --font-family: Roboto widescreen-ex, sans-serif;
   --font-weight: 900;
