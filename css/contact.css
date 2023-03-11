@@ -38,6 +38,7 @@ input {
   background-color: transparent;
   color: white;
   font-size: 90%;
+  margin-left: 10%;
 }
 
 textarea {
@@ -51,6 +52,7 @@ textarea {
   opacity: 0.8;
   font-size: 90%;
   color: white;
+  margin-left: 10%;
 }
 
 #Nom::placeholder {
@@ -66,7 +68,7 @@ textarea {
   border-radius: 10px;
   border-bottom: solid 1px white;
   font-family: "Roboto";
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .reseaux {
@@ -83,7 +85,8 @@ textarea {
   font-family: "Roboto";
   font-weight: 800;
   font-size: 2vw;
-  margin-top: 5%;
+  padding-bottom: 6%;
+  margin-right: 10%;
 }
 
 .contact-p {
