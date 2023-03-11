@@ -191,6 +191,15 @@ a {
   margin-bottom: 10%;
 }
 
+@media screen and (max-width: 1024px) {
+  .text-container > p {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    margin-left: 5%;
+  }
+}
+
 .description {
   text-align: right;
   font-family: "Roboto";
@@ -204,7 +213,7 @@ a {
 
 @media screen and (max-width: 1024px) {
   .description {
-    font-size: 70%;
+    font-size: 90%;
   }
 }
 
@@ -248,7 +257,7 @@ a {
   margin-right: 17%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1024px) {
   .bulles {
     justify-items: center;
     grid-template-columns: 1fr;
@@ -262,10 +271,27 @@ a {
   border-radius: 15px;
 }
 
+@media (max-width: 1024px) {
+  .bulle1 {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 15px;
+  }
+}
+
 .bulle2 {
   height: 5vw;
   width: 5vw;
   border-radius: 15px;
+}
+
+@media (max-width: 1024px) {
+  .bulle2 {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 15px;
+    margin-top: 3%;
+  }
 }
 
 .bulle3 {
@@ -274,12 +300,29 @@ a {
   border-radius: 15px;
 }
 
+@media (max-width: 1024px) {
+  .bulle3 {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 15px;
+    margin-top: 6%;
+  }
+}
+
 .bulle4 {
   height: 5vw;
   width: 5vw;
   border-radius: 15px;
 }
 
+@media (max-width: 1024px) {
+  .bulle4 {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 15px;
+    margin-top: 7%;
+  }
+}
 .bouton-pdf {
   display: block;
   width: 35vw;
@@ -292,6 +335,15 @@ a {
   font-family: "Roboto";
   margin-bottom: 30%;
   margin-left: 30%;
+}
+
+@media (max-width: 1024px) {
+  .bouton-pdf {
+    text-align: center;
+    font-size: 90%;
+    padding: 3%;
+    width: 40vw;
+  }
 }
 
 .bouton-pdf:hover {
