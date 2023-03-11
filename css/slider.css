@@ -202,6 +202,25 @@ main {
   display: block;
   transform: translateY(-33%);
 }
+
+.hey {
+  text-align: left;
+  font-family: Roboto;
+  font-size: max(2rem, min(4vw, 8rem));
+  font-weight: 300;
+  margin-top: 5%;
+}
+
+.hey > span {
+  display: block;
+}
+.hey > span:last-child {
+  padding: 0 1rem;
+  font-family: Roboto;
+  font-weight: 500;
+  display: block;
+  transform: translateY(-33%);
+}
 /* .preview__desc {
   max-width: 400px;
   text-transform: uppercase;

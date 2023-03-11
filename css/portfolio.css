@@ -200,6 +200,7 @@ a {
   margin-top: 0%;
   margin-left: 50%;
   margin-bottom: 5%;
+  opacity: 0.7;
 }
 
 .conteudo img {
@@ -348,8 +349,14 @@ section {
 #sec-1 {
   background-color: black;
   transform: skewY(-5deg);
-  transform-origin: 0;
   height: 20%;
+  margin-bottom: -30%;
+  padding-bottom: 20%;
+  margin-top: -7%;
+}
+
+#sec-1 > p {
+  color: transparent;
 }
 
 #sec-2 {
