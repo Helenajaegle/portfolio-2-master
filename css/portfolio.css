@@ -37,8 +37,7 @@
   width: 100vw;
   height: 100vh;
   position: fixed;
-  background: black;
-  opacity: 0.3;
+  opacity: 0.7;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -201,6 +200,12 @@ a {
   margin-left: 50%;
   margin-bottom: 5%;
   opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    font-size: 70%;
+  }
 }
 
 .conteudo img {
