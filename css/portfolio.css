@@ -416,6 +416,28 @@ section {
   color: transparent;
 }
 
+#sec-1 > svg {
+  width: 3%;
+  justify-content: right;
+  justify-items: right;
+  justify-self: right;
+  text-align: right;
+  margin-left: 94%;
+  margin-top: 5%;
+  display: inline-block;
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-9px);
+  }
+}
+
 #sec-2 {
   background-color: black;
   margin-top: 20%;
