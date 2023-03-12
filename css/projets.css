@@ -149,7 +149,6 @@ main {
   height: 100%;
   position: relative;
   overflow: hidden;
-  opacity: 0.7;
 }
 .preview__img-inner {
   width: 100%;
@@ -228,12 +227,7 @@ main {
   display: block;
   transform: translateY(-33%);
 }
-/* .preview__desc {
-  max-width: 400px;
-  text-transform: uppercase;
-  margin: 0 auto;
-  line-height: 1.2;
-} */
+
 .content-wrap {
   height: 100vh;
   pointer-events: none;
@@ -306,21 +300,7 @@ main {
 .content .preview__img {
   grid-area: img;
 }
-.content__thumbs {
-  grid-gap: 2vw;
-  grid-area: thumbs;
-  grid-auto-columns: auto;
-  grid-auto-flow: column;
-  justify-content: start;
-  display: grid;
-}
-.content__thumbs-item {
-  width: 50px;
-  aspect-ratio: 1.5;
-}
-.content__thumbs-item:hover {
-  cursor: not-allowed;
-}
+
 .hidden {
   opacity: 0;
   pointer-events: none;

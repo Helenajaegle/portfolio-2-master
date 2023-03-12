@@ -1,9 +1,0 @@
-.image-onf {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.image-onf > img {
-  width: 70%;
-  justify-self: center;
-}
