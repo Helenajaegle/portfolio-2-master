@@ -63,6 +63,7 @@ textarea {
   border-bottom: solid 1px white;
   font-family: "Roboto";
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .reseaux {
@@ -91,7 +92,7 @@ textarea {
   font-weight: 500;
   font-size: 4vw;
   margin-bottom: 3%;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 9%;
 }
 
@@ -100,4 +101,11 @@ textarea {
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 8vw;
   margin-bottom: 10%;
+}
+
+.img-fin {
+  width: 4%;
+  margin-left: 92%;
+  margin-top: -7%;
+  margin-bottom: 5%;
 }
