@@ -346,3 +346,19 @@ main {
     font-family: "Roboto";
   }
 }
+
+/* Liens autres pages */
+
+.lien {
+  text-decoration: none;
+  color: white;
+  border: 2px solid rgb(80, 87, 164);
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.lien:hover {
+  background-color: #26208d;
+  border: 2px solid #26208d;
+}

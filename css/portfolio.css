@@ -352,3 +352,14 @@
   transform: translateY(0);
   opacity: 1;
 }
+
+/* Page animation */
+
+.gif-2 {
+  width: 55vw;
+  margin-left: 45%;
+}
+
+.anim {
+  background-color: black;
+}
